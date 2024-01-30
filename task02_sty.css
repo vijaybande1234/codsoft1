@@ -1,0 +1,187 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo img{
+    height: 100px;
+    border-radius: 100em;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.navItem button{
+    background-color: #00bbff;
+}
+.navItem a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    border-radius: 5px;
+    border-bottom: solid #00bbff;
+
+}
+
+.nav h3 {
+    margin: 0%;
+    transition: transform 0.1s;
+}
+.nav h3:hover{
+    transform:scale(1.1) ;
+    color: #009ed8;
+
+}
+
+.myName {
+   
+
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myName h2 {
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.myName p {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+
+
+
+.aboutMe {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+
+}
+
+.aboutMe h2 {
+    padding: 25px;
+}
+
+hr {
+    background-color: #1fc3ff;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.aboutMe p {
+    margin: 50px;
+}
+
+.section {
+    display: flex;
+    background-color: rgb(231, 231, 231);
+}
+
+.section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    }
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0px 100px;
+}
+
+.left h3 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+
+.left button:hover{
+    transform: scale(1.1);
+    background-color:#00bbff;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.right {
+    padding: 0px 100px;
+    padding-bottom: 50px;
+}
+
+.right button {
+    background-color: lightgray;
+    border-radius: 10px;
+    border-color: rgba(112, 108, 108, 0.699);
+    margin: 6px;
+    padding: 10px 20px;
+    transition: transform 0.1s;
+}
+
+.right button:hover {
+    transform: scale(1.1);
+    background-color: #00bbff;
+}
+
+
+.right h3 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    height: 25vh;
+    background-color: antiquewhite;
+    color: darkblack;
+    padding: 20px;
+}
+
+.footer p {
+    display: flex;
+    align-items: end;
+    text-align: center;
+}
+
+.leftfoot h4 {
+    font-size: 20px;
+    padding: 15px;
+    justify-self: start;
+
+}
+.leftfoot p{
+    font-size:.8rem ;
+}
+
+
+.endfooter {
+    display: flex;
+}
+
+
+
+
